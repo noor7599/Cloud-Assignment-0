@@ -1,4 +1,3 @@
-/* General Page Styling */
 body {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -7,31 +6,26 @@ body {
   padding: 20px;
 }
 
-/* Container */
 .container {
   max-width: 800px;
   margin: auto;
 }
 
-/* Porsche Title */
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
   color: red;
 }
 
-/* Car Showcase */
 .car-showcase {
   margin-top: 30px;
 }
 
-/* Car Container */
 .car-container {
   position: relative;
   display: inline-block;
 }
 
-/* Car Image */
 .car {
   width: 500px;
   position: relative;
@@ -39,7 +33,6 @@ h1 {
   z-index: 2;
 }
 
-/* Multiple Smoke Trails */
 .vroom-effect {
   position: absolute;
   bottom: 30px;
@@ -52,7 +45,6 @@ h1 {
   z-index: 1;
 }
 
-/* Extra smoke puffs */
 .vroom-effect::before,
 .vroom-effect::after {
   content: "";
@@ -64,19 +56,16 @@ h1 {
   border-radius: 50%;
 }
 
-/* Left puff */
 .vroom-effect::before {
   left: -30px;
   bottom: 10px;
 }
 
-/* Right puff */
 .vroom-effect::after {
   left: 30px;
   bottom: -10px;
 }
 
-/* Animate Vroom Effect */
 @keyframes vroom {
   0% { opacity: 1; transform: scale(1); left: -150px; }
   50% { opacity: 0.7; transform: scale(1.8); left: -200px; }
